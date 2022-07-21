@@ -22,18 +22,22 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.fullnameLabel = New System.Windows.Forms.Label()
-        Me.emailLabel = New System.Windows.Forms.Label()
+        Me.addressLabel = New System.Windows.Forms.Label()
         Me.contactLabel = New System.Windows.Forms.Label()
-        Me.AddressLabel = New System.Windows.Forms.Label()
-        Me.courseSectionLabel = New System.Windows.Forms.Label()
+        Me.emailLabel = New System.Windows.Forms.Label()
         Me.studentNumberLabel = New System.Windows.Forms.Label()
-        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.courseSectionLabel = New System.Windows.Forms.Label()
+        Me.fullnameLabel = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.startBtn = New System.Windows.Forms.Button()
+        Me.saveBtn = New System.Windows.Forms.Button()
+        Me.cameraPicBox = New System.Windows.Forms.PictureBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1.SuspendLayout()
+        CType(Me.cameraPicBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -50,7 +54,7 @@ Partial Class Form1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.Window
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel1.Controls.Add(Me.AddressLabel)
+        Me.Panel1.Controls.Add(Me.addressLabel)
         Me.Panel1.Controls.Add(Me.contactLabel)
         Me.Panel1.Controls.Add(Me.emailLabel)
         Me.Panel1.Controls.Add(Me.studentNumberLabel)
@@ -61,25 +65,15 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(289, 260)
         Me.Panel1.TabIndex = 1
         '
-        'fullnameLabel
+        'addressLabel
         '
-        Me.fullnameLabel.AutoSize = True
-        Me.fullnameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fullnameLabel.Location = New System.Drawing.Point(3, 9)
-        Me.fullnameLabel.Name = "fullnameLabel"
-        Me.fullnameLabel.Size = New System.Drawing.Size(97, 24)
-        Me.fullnameLabel.TabIndex = 0
-        Me.fullnameLabel.Text = "Fullname"
-        '
-        'emailLabel
-        '
-        Me.emailLabel.AutoSize = True
-        Me.emailLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.emailLabel.Location = New System.Drawing.Point(3, 109)
-        Me.emailLabel.Name = "emailLabel"
-        Me.emailLabel.Size = New System.Drawing.Size(62, 24)
-        Me.emailLabel.TabIndex = 0
-        Me.emailLabel.Text = "Email"
+        Me.addressLabel.AutoSize = True
+        Me.addressLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.addressLabel.Location = New System.Drawing.Point(3, 181)
+        Me.addressLabel.Name = "addressLabel"
+        Me.addressLabel.Size = New System.Drawing.Size(87, 24)
+        Me.addressLabel.TabIndex = 0
+        Me.addressLabel.Text = "Address"
         '
         'contactLabel
         '
@@ -91,25 +85,15 @@ Partial Class Form1
         Me.contactLabel.TabIndex = 0
         Me.contactLabel.Text = "Contact"
         '
-        'AddressLabel
+        'emailLabel
         '
-        Me.AddressLabel.AutoSize = True
-        Me.AddressLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AddressLabel.Location = New System.Drawing.Point(3, 181)
-        Me.AddressLabel.Name = "AddressLabel"
-        Me.AddressLabel.Size = New System.Drawing.Size(87, 24)
-        Me.AddressLabel.TabIndex = 0
-        Me.AddressLabel.Text = "Address"
-        '
-        'courseSectionLabel
-        '
-        Me.courseSectionLabel.AutoSize = True
-        Me.courseSectionLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.courseSectionLabel.Location = New System.Drawing.Point(3, 42)
-        Me.courseSectionLabel.Name = "courseSectionLabel"
-        Me.courseSectionLabel.Size = New System.Drawing.Size(153, 24)
-        Me.courseSectionLabel.TabIndex = 0
-        Me.courseSectionLabel.Text = "Course Section"
+        Me.emailLabel.AutoSize = True
+        Me.emailLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.emailLabel.Location = New System.Drawing.Point(3, 109)
+        Me.emailLabel.Name = "emailLabel"
+        Me.emailLabel.Size = New System.Drawing.Size(62, 24)
+        Me.emailLabel.TabIndex = 0
+        Me.emailLabel.Text = "Email"
         '
         'studentNumberLabel
         '
@@ -121,12 +105,25 @@ Partial Class Form1
         Me.studentNumberLabel.TabIndex = 0
         Me.studentNumberLabel.Text = "Student Number"
         '
-        'Panel2
+        'courseSectionLabel
         '
-        Me.Panel2.Location = New System.Drawing.Point(322, 37)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(466, 271)
-        Me.Panel2.TabIndex = 2
+        Me.courseSectionLabel.AutoSize = True
+        Me.courseSectionLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.courseSectionLabel.Location = New System.Drawing.Point(3, 42)
+        Me.courseSectionLabel.Name = "courseSectionLabel"
+        Me.courseSectionLabel.Size = New System.Drawing.Size(153, 24)
+        Me.courseSectionLabel.TabIndex = 0
+        Me.courseSectionLabel.Text = "Course Section"
+        '
+        'fullnameLabel
+        '
+        Me.fullnameLabel.AutoSize = True
+        Me.fullnameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fullnameLabel.Location = New System.Drawing.Point(3, 9)
+        Me.fullnameLabel.Name = "fullnameLabel"
+        Me.fullnameLabel.Size = New System.Drawing.Size(97, 24)
+        Me.fullnameLabel.TabIndex = 0
+        Me.fullnameLabel.Text = "Fullname"
         '
         'Label2
         '
@@ -138,23 +135,46 @@ Partial Class Form1
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Camera:"
         '
-        'Button1
+        'startBtn
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(416, 12)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Start"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.startBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.startBtn.Location = New System.Drawing.Point(416, 12)
+        Me.startBtn.Name = "startBtn"
+        Me.startBtn.Size = New System.Drawing.Size(75, 23)
+        Me.startBtn.TabIndex = 3
+        Me.startBtn.Text = "Start"
+        Me.startBtn.UseVisualStyleBackColor = True
+        '
+        'saveBtn
+        '
+        Me.saveBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.saveBtn.Location = New System.Drawing.Point(17, 303)
+        Me.saveBtn.Name = "saveBtn"
+        Me.saveBtn.Size = New System.Drawing.Size(75, 23)
+        Me.saveBtn.TabIndex = 3
+        Me.saveBtn.Text = "Save"
+        Me.saveBtn.UseVisualStyleBackColor = True
+        '
+        'cameraPicBox
+        '
+        Me.cameraPicBox.Location = New System.Drawing.Point(322, 38)
+        Me.cameraPicBox.Name = "cameraPicBox"
+        Me.cameraPicBox.Size = New System.Drawing.Size(466, 288)
+        Me.cameraPicBox.TabIndex = 4
+        Me.cameraPicBox.TabStop = False
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1000
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 320)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Panel2)
+        Me.ClientSize = New System.Drawing.Size(800, 338)
+        Me.Controls.Add(Me.cameraPicBox)
+        Me.Controls.Add(Me.saveBtn)
+        Me.Controls.Add(Me.startBtn)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -162,6 +182,7 @@ Partial Class Form1
         Me.Text = "Contact Tracing QR Code Scanner"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.cameraPicBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -169,13 +190,15 @@ Partial Class Form1
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents AddressLabel As Label
+    Friend WithEvents addressLabel As Label
     Friend WithEvents contactLabel As Label
     Friend WithEvents emailLabel As Label
     Friend WithEvents studentNumberLabel As Label
     Friend WithEvents courseSectionLabel As Label
     Friend WithEvents fullnameLabel As Label
-    Friend WithEvents Panel2 As Panel
     Friend WithEvents Label2 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents startBtn As Button
+    Friend WithEvents saveBtn As Button
+    Friend WithEvents cameraPicBox As PictureBox
+    Friend WithEvents Timer1 As Timer
 End Class
