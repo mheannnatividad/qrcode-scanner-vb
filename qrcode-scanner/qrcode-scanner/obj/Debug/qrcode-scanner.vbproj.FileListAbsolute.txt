@@ -1,0 +1,12 @@
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\qrcode-scanner.exe.config
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\qrcode-scanner.exe
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\qrcode-scanner.pdb
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\qrcode-scanner.xml
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\obj\Debug\qrcode-scanner.vbproj.AssemblyReference.cache
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\obj\Debug\qrcode_scanner.Form1.resources
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\obj\Debug\qrcode_scanner.Resources.resources
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\obj\Debug\qrcode-scanner.vbproj.GenerateResource.cache
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\obj\Debug\qrcode-scanner.vbproj.CoreCompileInputs.cache
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\obj\Debug\qrcode-scanner.exe
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\obj\Debug\qrcode-scanner.xml
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\obj\Debug\qrcode-scanner.pdb
