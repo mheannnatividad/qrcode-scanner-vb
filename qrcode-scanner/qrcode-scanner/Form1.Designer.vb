@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -68,62 +68,68 @@ Partial Class Form1
         'addressLabel
         '
         Me.addressLabel.AutoSize = True
-        Me.addressLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.addressLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.addressLabel.Location = New System.Drawing.Point(3, 181)
         Me.addressLabel.Name = "addressLabel"
-        Me.addressLabel.Size = New System.Drawing.Size(87, 24)
+        Me.addressLabel.Size = New System.Drawing.Size(66, 16)
         Me.addressLabel.TabIndex = 0
         Me.addressLabel.Text = "Address"
+        Me.addressLabel.Visible = False
         '
         'contactLabel
         '
         Me.contactLabel.AutoSize = True
-        Me.contactLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.contactLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.contactLabel.Location = New System.Drawing.Point(3, 144)
         Me.contactLabel.Name = "contactLabel"
-        Me.contactLabel.Size = New System.Drawing.Size(80, 24)
+        Me.contactLabel.Size = New System.Drawing.Size(60, 16)
         Me.contactLabel.TabIndex = 0
         Me.contactLabel.Text = "Contact"
+        Me.contactLabel.Visible = False
         '
         'emailLabel
         '
         Me.emailLabel.AutoSize = True
-        Me.emailLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.emailLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.emailLabel.Location = New System.Drawing.Point(3, 109)
         Me.emailLabel.Name = "emailLabel"
-        Me.emailLabel.Size = New System.Drawing.Size(62, 24)
+        Me.emailLabel.Size = New System.Drawing.Size(47, 16)
         Me.emailLabel.TabIndex = 0
         Me.emailLabel.Text = "Email"
+        Me.emailLabel.Visible = False
         '
         'studentNumberLabel
         '
         Me.studentNumberLabel.AutoSize = True
-        Me.studentNumberLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.studentNumberLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.studentNumberLabel.Location = New System.Drawing.Point(3, 76)
         Me.studentNumberLabel.Name = "studentNumberLabel"
-        Me.studentNumberLabel.Size = New System.Drawing.Size(162, 24)
+        Me.studentNumberLabel.Size = New System.Drawing.Size(118, 16)
         Me.studentNumberLabel.TabIndex = 0
         Me.studentNumberLabel.Text = "Student Number"
+        Me.studentNumberLabel.Visible = False
         '
         'courseSectionLabel
         '
         Me.courseSectionLabel.AutoSize = True
-        Me.courseSectionLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.courseSectionLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.courseSectionLabel.Location = New System.Drawing.Point(3, 42)
         Me.courseSectionLabel.Name = "courseSectionLabel"
-        Me.courseSectionLabel.Size = New System.Drawing.Size(153, 24)
+        Me.courseSectionLabel.Size = New System.Drawing.Size(113, 16)
         Me.courseSectionLabel.TabIndex = 0
         Me.courseSectionLabel.Text = "Course Section"
+        Me.courseSectionLabel.Visible = False
         '
         'fullnameLabel
         '
         Me.fullnameLabel.AutoSize = True
-        Me.fullnameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fullnameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fullnameLabel.Location = New System.Drawing.Point(3, 9)
         Me.fullnameLabel.Name = "fullnameLabel"
-        Me.fullnameLabel.Size = New System.Drawing.Size(97, 24)
+        Me.fullnameLabel.Size = New System.Drawing.Size(71, 16)
         Me.fullnameLabel.TabIndex = 0
         Me.fullnameLabel.Text = "Fullname"
+        Me.fullnameLabel.Visible = False
         '
         'Label2
         '
@@ -160,6 +166,7 @@ Partial Class Form1
         Me.cameraPicBox.Location = New System.Drawing.Point(322, 38)
         Me.cameraPicBox.Name = "cameraPicBox"
         Me.cameraPicBox.Size = New System.Drawing.Size(466, 288)
+        Me.cameraPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.cameraPicBox.TabIndex = 4
         Me.cameraPicBox.TabStop = False
         '

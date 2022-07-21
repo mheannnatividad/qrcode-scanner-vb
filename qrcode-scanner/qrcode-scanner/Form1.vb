@@ -36,15 +36,44 @@ Public Class Form1
                 qrDataText = qrCodeText.ToString
                 qrCodeData = qrDataText.Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
 
-                fullnameLabel.Text = qrDataText(0) + ", " + qrDataText(1)
+                fullnameLabel.Text = qrCodeData(0) + ", " + qrCodeData(1)
                 courseSectionLabel.Text = qrCodeData(2)
                 studentNumberLabel.Text = qrCodeData(3)
                 emailLabel.Text = qrCodeData(4)
                 contactLabel.Text = qrCodeData(5)
-                addressLabel.Text = qrCodeData(5)
+                addressLabel.Text = qrCodeData(6)
+
+                fullnameLabel.Visible = True
+                courseSectionLabel.Visible = True
+                studentNumberLabel.Visible = True
+                emailLabel.Visible = True
+                contactLabel.Visible = True
+                addressLabel.Visible = True
             End If
 
 
+        End If
+    End Sub
+
+    Private Sub saveBtn_Click(sender As Object, e As EventArgs) Handles saveBtn.Click
+        Dim fileWriter As System.IO.StreamWriter
+        fileWriter = My.Computer.FileSystem.OpenTextFileWriter("studentInfo.txt", True)
+
+
+
+        If fullnameLabel.Visible Then
+            fileWriter.WriteLine(fullnameLabel.Text)
+            fileWriter.WriteLine(courseSectionLabel.Text)
+            fileWriter.WriteLine(studentNumberLabel.Text)
+            fileWriter.WriteLine(emailLabel.Text)
+            fileWriter.WriteLine(contactLabel.Text)
+            fileWriter.WriteLine(addressLabel.Text)
+
+            fileWriter.Close()
+
+            MessageBox.Show("File save.")
+        Else
+            MessageBox.Show("Invalid to save, no qr code text detect")
         End If
     End Sub
 End Class

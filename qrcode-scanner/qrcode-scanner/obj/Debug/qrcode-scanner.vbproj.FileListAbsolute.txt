@@ -10,3 +10,14 @@ C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanne
 C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\obj\Debug\qrcode-scanner.exe
 C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\obj\Debug\qrcode-scanner.xml
 C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\obj\Debug\qrcode-scanner.pdb
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\AForge.dll
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\AForge.Video.dll
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\zxing.dll
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\zxing.presentation.dll
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\AForge.xml
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\AForge.Video.xml
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\zxing.xml
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\bin\Debug\zxing.presentation.xml
+C:\Users\Rom\Desktop\5TH-YR-2ND-SEM\elec3\mheann\qrcode-scanner-vb\qrcode-scanner\qrcode-scanner\obj\Debug\qrcode-scanner.vbproj.CopyComplete
