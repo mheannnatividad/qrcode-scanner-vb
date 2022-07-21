@@ -169,7 +169,6 @@ Partial Class Form1
         Me.cameraPicBox.Location = New System.Drawing.Point(322, 38)
         Me.cameraPicBox.Name = "cameraPicBox"
         Me.cameraPicBox.Size = New System.Drawing.Size(466, 288)
-        Me.cameraPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.cameraPicBox.TabIndex = 4
         Me.cameraPicBox.TabStop = False
         '
@@ -201,6 +200,8 @@ Partial Class Form1
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.Text = "Contact Tracing QR Code Scanner"
         Me.Panel1.ResumeLayout(False)
