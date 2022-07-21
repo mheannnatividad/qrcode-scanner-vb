@@ -92,4 +92,10 @@ Public Class Form1
         contactLabel.Visible = True
         addressLabel.Visible = True
     End Sub
+
+    Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        If cameraDevice.IsRunning Then
+            cameraDevice.Stop()
+        End If
+    End Sub
 End Class

@@ -144,23 +144,25 @@ Partial Class Form1
         '
         'startBtn
         '
+        Me.startBtn.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.startBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.startBtn.Location = New System.Drawing.Point(416, 12)
         Me.startBtn.Name = "startBtn"
         Me.startBtn.Size = New System.Drawing.Size(75, 23)
         Me.startBtn.TabIndex = 3
         Me.startBtn.Text = "Start"
-        Me.startBtn.UseVisualStyleBackColor = True
+        Me.startBtn.UseVisualStyleBackColor = False
         '
         'saveBtn
         '
+        Me.saveBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.saveBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.saveBtn.Location = New System.Drawing.Point(17, 303)
         Me.saveBtn.Name = "saveBtn"
         Me.saveBtn.Size = New System.Drawing.Size(75, 23)
         Me.saveBtn.TabIndex = 3
         Me.saveBtn.Text = "Save"
-        Me.saveBtn.UseVisualStyleBackColor = True
+        Me.saveBtn.UseVisualStyleBackColor = False
         '
         'cameraPicBox
         '
@@ -177,18 +179,20 @@ Partial Class Form1
         '
         'clearBtn
         '
+        Me.clearBtn.BackColor = System.Drawing.Color.White
         Me.clearBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.clearBtn.Location = New System.Drawing.Point(98, 303)
         Me.clearBtn.Name = "clearBtn"
         Me.clearBtn.Size = New System.Drawing.Size(75, 23)
         Me.clearBtn.TabIndex = 3
         Me.clearBtn.Text = "Clear"
-        Me.clearBtn.UseVisualStyleBackColor = True
+        Me.clearBtn.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.Info
         Me.ClientSize = New System.Drawing.Size(800, 338)
         Me.Controls.Add(Me.cameraPicBox)
         Me.Controls.Add(Me.clearBtn)
