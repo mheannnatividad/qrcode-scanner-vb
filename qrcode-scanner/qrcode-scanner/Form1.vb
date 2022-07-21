@@ -85,12 +85,12 @@ Public Class Form1
         contactLabel.Text = ""
         addressLabel.Text = ""
 
-        fullnameLabel.Visible = True
-        courseSectionLabel.Visible = True
-        studentNumberLabel.Visible = True
-        emailLabel.Visible = True
-        contactLabel.Visible = True
-        addressLabel.Visible = True
+        fullnameLabel.Visible = False
+        courseSectionLabel.Visible = False
+        studentNumberLabel.Visible = False
+        emailLabel.Visible = False
+        contactLabel.Visible = False
+        addressLabel.Visible = False
     End Sub
 
     Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing

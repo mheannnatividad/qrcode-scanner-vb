@@ -69,10 +69,10 @@ Partial Class Form1
         'addressLabel
         '
         Me.addressLabel.AutoSize = True
-        Me.addressLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.addressLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.addressLabel.Location = New System.Drawing.Point(3, 181)
         Me.addressLabel.Name = "addressLabel"
-        Me.addressLabel.Size = New System.Drawing.Size(66, 16)
+        Me.addressLabel.Size = New System.Drawing.Size(75, 20)
         Me.addressLabel.TabIndex = 0
         Me.addressLabel.Text = "Address"
         Me.addressLabel.Visible = False
@@ -80,10 +80,10 @@ Partial Class Form1
         'contactLabel
         '
         Me.contactLabel.AutoSize = True
-        Me.contactLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.contactLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.contactLabel.Location = New System.Drawing.Point(3, 144)
         Me.contactLabel.Name = "contactLabel"
-        Me.contactLabel.Size = New System.Drawing.Size(60, 16)
+        Me.contactLabel.Size = New System.Drawing.Size(72, 20)
         Me.contactLabel.TabIndex = 0
         Me.contactLabel.Text = "Contact"
         Me.contactLabel.Visible = False
@@ -91,10 +91,10 @@ Partial Class Form1
         'emailLabel
         '
         Me.emailLabel.AutoSize = True
-        Me.emailLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.emailLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.emailLabel.Location = New System.Drawing.Point(3, 109)
         Me.emailLabel.Name = "emailLabel"
-        Me.emailLabel.Size = New System.Drawing.Size(47, 16)
+        Me.emailLabel.Size = New System.Drawing.Size(53, 20)
         Me.emailLabel.TabIndex = 0
         Me.emailLabel.Text = "Email"
         Me.emailLabel.Visible = False
@@ -102,10 +102,10 @@ Partial Class Form1
         'studentNumberLabel
         '
         Me.studentNumberLabel.AutoSize = True
-        Me.studentNumberLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.studentNumberLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.studentNumberLabel.Location = New System.Drawing.Point(3, 76)
         Me.studentNumberLabel.Name = "studentNumberLabel"
-        Me.studentNumberLabel.Size = New System.Drawing.Size(118, 16)
+        Me.studentNumberLabel.Size = New System.Drawing.Size(140, 20)
         Me.studentNumberLabel.TabIndex = 0
         Me.studentNumberLabel.Text = "Student Number"
         Me.studentNumberLabel.Visible = False
@@ -113,10 +113,10 @@ Partial Class Form1
         'courseSectionLabel
         '
         Me.courseSectionLabel.AutoSize = True
-        Me.courseSectionLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.courseSectionLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.courseSectionLabel.Location = New System.Drawing.Point(3, 42)
         Me.courseSectionLabel.Name = "courseSectionLabel"
-        Me.courseSectionLabel.Size = New System.Drawing.Size(113, 16)
+        Me.courseSectionLabel.Size = New System.Drawing.Size(132, 20)
         Me.courseSectionLabel.TabIndex = 0
         Me.courseSectionLabel.Text = "Course Section"
         Me.courseSectionLabel.Visible = False
@@ -124,10 +124,10 @@ Partial Class Form1
         'fullnameLabel
         '
         Me.fullnameLabel.AutoSize = True
-        Me.fullnameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fullnameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fullnameLabel.Location = New System.Drawing.Point(3, 9)
         Me.fullnameLabel.Name = "fullnameLabel"
-        Me.fullnameLabel.Size = New System.Drawing.Size(71, 16)
+        Me.fullnameLabel.Size = New System.Drawing.Size(82, 20)
         Me.fullnameLabel.TabIndex = 0
         Me.fullnameLabel.Text = "Fullname"
         Me.fullnameLabel.Visible = False
