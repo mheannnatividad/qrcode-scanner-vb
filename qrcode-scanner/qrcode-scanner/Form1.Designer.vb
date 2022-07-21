@@ -36,6 +36,7 @@ Partial Class Form1
         Me.saveBtn = New System.Windows.Forms.Button()
         Me.cameraPicBox = New System.Windows.Forms.PictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.clearBtn = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.cameraPicBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -174,12 +175,23 @@ Partial Class Form1
         '
         Me.Timer1.Interval = 1000
         '
+        'clearBtn
+        '
+        Me.clearBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.clearBtn.Location = New System.Drawing.Point(98, 303)
+        Me.clearBtn.Name = "clearBtn"
+        Me.clearBtn.Size = New System.Drawing.Size(75, 23)
+        Me.clearBtn.TabIndex = 3
+        Me.clearBtn.Text = "Clear"
+        Me.clearBtn.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 338)
         Me.Controls.Add(Me.cameraPicBox)
+        Me.Controls.Add(Me.clearBtn)
         Me.Controls.Add(Me.saveBtn)
         Me.Controls.Add(Me.startBtn)
         Me.Controls.Add(Me.Panel1)
@@ -208,4 +220,5 @@ Partial Class Form1
     Friend WithEvents saveBtn As Button
     Friend WithEvents cameraPicBox As PictureBox
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents clearBtn As Button
 End Class

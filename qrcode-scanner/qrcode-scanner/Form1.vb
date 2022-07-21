@@ -76,4 +76,20 @@ Public Class Form1
             MessageBox.Show("Invalid to save, no qr code text detect")
         End If
     End Sub
+
+    Private Sub clearBtn_Click(sender As Object, e As EventArgs) Handles clearBtn.Click
+        fullnameLabel.Text = ""
+        courseSectionLabel.Text = ""
+        studentNumberLabel.Text = ""
+        emailLabel.Text = ""
+        contactLabel.Text = ""
+        addressLabel.Text = ""
+
+        fullnameLabel.Visible = True
+        courseSectionLabel.Visible = True
+        studentNumberLabel.Visible = True
+        emailLabel.Visible = True
+        contactLabel.Visible = True
+        addressLabel.Visible = True
+    End Sub
 End Class
